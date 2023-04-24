@@ -32,6 +32,8 @@ kotlin {
             dependencies {
                 implementation(compose.web.core)
                 implementation(compose.runtime)
+                // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+                implementation("org.apache.poi:poi-ooxml:5.2.2")
             }
         }
         val jsTest by getting {
